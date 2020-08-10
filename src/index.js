@@ -8,6 +8,7 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById('root')
+  document.title = "COVID-19 Tracker"
 );
 
 // If you want your app to work offline and load faster, you can change
