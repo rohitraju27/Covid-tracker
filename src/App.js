@@ -12,7 +12,6 @@ class App extends Component{
   }
   
   async componentDidMount() {
-    document.title = 'Custom Title';
   	const fetchedData = await fetchData()
   	this.setState({data: fetchedData})
  	  console.log(this.state.data)
