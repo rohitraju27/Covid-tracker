@@ -1,1 +1,1 @@
-Website for tracking conditions of COVID-19 for over 180+ countries
+A website to track condition of COVID-19 in over 180+ countries.
