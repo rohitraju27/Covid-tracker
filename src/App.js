@@ -12,6 +12,7 @@ class App extends Component{
   }
   
   async componentDidMount() {
+    document.title = "COVID-19 Tracker"
   	const fetchedData = await fetchData()
   	this.setState({data: fetchedData})
  	console.log(this.state.data)
